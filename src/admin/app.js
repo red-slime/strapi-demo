@@ -1,4 +1,14 @@
+import favicon from "./extensions/atlogo.png";
+
 const config = {
+  head: {
+    favicon: favicon,
+  },
+  translations: {
+    en: {
+      "app.components.LeftMenu.navbrand.title": "Atomic Health",
+    },
+  },
   locales: [
     // 'ar',
     // 'fr',
